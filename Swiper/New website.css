@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/* header--------------------------------------------------------------------------*/
+.header {
+    background-color: #00bcd4;
+}
+
+.logo {
+    float: left;
+}
+
+.logo>a>img {
+    margin: 10px;
+}
+
+.search-outer {
+
+    border: none;
+    float: right;
+    padding: 50px;
+    padding-top: 80px;
+}
+.search form {
+    background-color: white;
+}
+
+.outer {
+    outline: none;
+    padding: 7px 100px 7px 100px
+}
+
+.button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    padding: 7px 7px 7px 7px
+}
+
+.clearfix {
+    clear: both
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar>ul>li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.navbar>ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar>ul>li:hover{
+    background-color: blue;
+    color: white;
+}
+.navbar>ul>li:hover a{
+    color: white;
+}
+.dropdown {
+    padding: 10px 16px;
+    list-style: none;
+    position: absolute;
+    background-color: white;
+    display: none;
+    z-index: 2;
+}
+.dropdown li{
+    padding: 6px 0;
+}
+.dropdown li a{
+    color: black !important;
+}
+.drophead:hover .dropdown{
+    display: block;
+}
+.dropdown li:hover{
+    background-color: blue;
+}
+.dropdown li:hover a{
+    color: white !important;
+}
+/* header-----------------------------------------------------------------------*/
+.content-section{
+    background-color: rgba(141, 86, 35, 0.747);
+    height:475px;
+}
+.content-left{
+    margin-left: 50px;
+    float: left;
+}
+.content-side{
+    background-color: burlywood;
+    font-family: sans-serif;
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+.content-side ul, .footer-menu ul{
+    list-style: none;
+    padding-left: 0;
+}
+.content-side{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100%;
+}
+footer{
+    padding-top: 15px;
+}
+.footer-menu{
+padding: 0 138px;
+text-align: center;
+display:inline-block
+}
+.footer-menu label{
+    font-weight: 1000;
+}
+.footer-menu >ul>li>a{
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}

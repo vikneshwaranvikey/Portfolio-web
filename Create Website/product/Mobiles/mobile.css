@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+
+.h2 {
+  background-color: gray;
+  padding: 10px 220px;
+  color: rgb(255, 127, 8);
+}
+
+hr {
+  height: 5px;
+  background-color: orange;
+  width: auto;
+  border: solid 1px;
+}
+
+span {
+  font-size: 70px;
+}
+.navbar {
+  margin: 20px 0;
+  background-color: red;
+  height: 50px;
+  width: 100%;
+  border: solid 3px;
+}
+.navbar ul {
+  font-size: larger;
+  font-weight: bolder;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20%;
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+/*------AddCart-----*/
+.cart {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 3px;
+  width: 80px;
+  margin-left: 280px;
+}
+.fa-solid {
+  color: red;
+}
+.cart p {
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  border-radius: 22px;
+  background-color: red;
+  color: white;
+}
+/*------SideBar Addcart-----*/
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+#root {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.sidebar {
+  width: 25%;
+  border-radius: 5px;
+  background-color: #eee;
+  margin-left: 20px;
+  padding: 15px;
+  text-align: center;
+}
+.head {
+  background-color: red;
+  border-radius: 3px;
+  height: 40px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.head p {
+  padding-left: 20px;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  border-top: 1px solid #333;
+}
+/*----------Java script box---------------- */
+.box {
+  width: 335px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid red;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 100px 0px 100px 0;
+}
+.img-box {
+  width: 335px;
+  height: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images {
+  width: 335px;
+  height: 335px;
+  object-fit: cover;
+  object-position: center;
+}
+.bottom {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px;
+}
+h2 {
+  font-size: 20px;
+  color: red;
+}
+button {
+  margin-top: 20px;
+  width: 40%;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  padding: 7px 25px;
+  cursor: pointer;
+  color: white;
+}
+button:hover {
+  background-color: #333;
+}
+/*----------Inner cart---------------- */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 3px;
+  margin: 10px 10px;
+}
+.row-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rowing {
+  max-width: 43px;
+  max-height: 43px;
+  border-radius: 50%;
+}
+.fa-trash:hover {
+  cursor: pointer;
+  color: #333;
+}
+
+/* Button------------------------------------- */
+
+/*
+button {
+  margin-left: 15px;
+  background: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 100px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+button:hover {
+  background: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+button a {
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+}
+*/
+/* Button------------------------------------- */
+/* 
+.product-outer {
+  padding: 30px;
+}
+.product-inner img {
+  width: 335px;
+  height: 335px;
+}
+.product-inner {
+  padding: 7px;
+  float: left;
+  border: 3px solid #f9004d;
+  border-radius: 25px;
+  margin: 100px;
+}
+.product-detail {
+  padding: 20px 20px;
+}
+.offer {
+  padding-left: 40px;
+}
+.offer s {
+  color: red;
+}
+.product-detail h5 {
+  text-align: center;
+}
+*/

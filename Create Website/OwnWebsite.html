@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Mobiles products</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./stylesheet.css" />
+
+    <style>
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        background: #fff;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body class="background">
+    <div class="castle-png">
+      <img src="../Create Website/Logo/castle-42218.png" alt="castle" />
+    </div>
+    <div class="search-outer">
+      <form class="search form">
+        <input class="srch" type="search" name="" placeholder="Type to text" />
+        <a href="#"><button class="btn">Search</button></a>
+      </form>
+    </div>
+    <div class="container">
+      <header>
+        <div class="icon">
+          <h2 class="logo">CasTle</h2>
+        </div>
+
+        <div class="navbar">
+          <ul>
+            <li><a href="../Create Website/OwnWebsite.html">Home</a></li>
+            <li>
+              <a href="../Create Website/About us/about.html">About us</a>
+            </li>
+            <li class="drophead">
+              <a href="#"
+                >product
+                <ul class="dropmenu">
+                  <li>
+                    <a href="../Create Website/product/Mobiles/mobile.html"
+                      >Mobiles</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../Create Website/product/Cloths/Cloths.html"
+                      >Cloths</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../Create Website/product/Electronic/Electronic.html"
+                      >Electronic</a
+                    >
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li>
+              <a href="../Create Website/contact/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <hr />
+    <div class="container2">
+      <div style="height: 500px; width: 100%">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="../Create Website/images/Electronic-5.jpg"
+                alt="--Banner--"
+                style="width: 100%"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="../Create Website/images/mobile 1.jpg"
+                alt="--Banner--"
+                style="width: 100%"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="../Create Website/images/clothe.jpg"
+                alt="--Banner--"
+                style="width: 100%"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </div>
+    <hr />
+    <footer>
+      <div class="footer-menu">
+        <label>About</label>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu">
+        <label>Policy</label>
+        <ul>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu">
+        <label>Help</label>
+        <ul>
+          <li><a href="#">Payments</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu">
+        <label>Social</label>
+        <ul>
+          <li>
+            <img src="./socil-media-icons/icons8-facebook-48.png" alt="" /><a
+              href="#"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <img src="./socil-media-icons/icons8-mail-48.png" alt="" /><a
+              href="#"
+              >Mail</a
+            >
+          </li>
+          <li>
+            <img src="./socil-media-icons/icons8-whatsapp-48.png" alt="" /><a
+              href="#"
+              >WhatsApp</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <div class="copyright">
+      <div>
+        <small>copyright &copy; 2021 - 2023</small>
+      </div>
+    </div>
+  </body>
+</html>

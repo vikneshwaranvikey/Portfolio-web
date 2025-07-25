@@ -8,6 +8,10 @@
   outline: none;
   scroll-behavior: smooth;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 body {
   background: var(--primary-color);
@@ -538,7 +542,8 @@ body {
   }
 
   .home {
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
   }
   .home-content h3 {
     font-size: 2.6rem;
@@ -548,7 +553,7 @@ body {
   }
   .home-img img {
     width: 70vw;
-    margin-top: 4rem;
+    margin: 0 auto;
   }
   .about {
     flex-direction: column-reverse;
@@ -567,7 +572,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 617) {
+@media (max-width: 617px) {
   .portfolio-container {
     grid-template-columns: 1fr;
   }
@@ -576,8 +581,12 @@ body {
   html {
     font-size: 50%;
   }
-  .contact form .input-box input {
+  .contact form .input-box {
+    flex-direction: column;
+  }
+   .btn {
     width: 100%;
+    padding: 14px;
   }
 }
 @media (max-width: 365px) {
